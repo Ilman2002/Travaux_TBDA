@@ -1,0 +1,14 @@
+article{
+    border-style: solid;
+    background-color: black; max-width: 1900px;
+}
+
+a{
+    color: white;
+}
+
+img 
+{
+     max-width: 100%;
+     height: auto;
+}
