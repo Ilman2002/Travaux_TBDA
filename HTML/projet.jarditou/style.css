@@ -9,6 +9,40 @@ a{
 
 img 
 {
-     max-width: 100%;
-     height: auto;
+     max-width: 1904px;
+     height: 360px;
+}
+
+hr{
+    max-width: 1904px;
+}
+
+fieldset{
+    max-width: 1904px;
+}
+
+.flotte {
+    float:left;
+}
+
+div{
+    max-width: 1904px;
+}
+
+div, #Titre {
+    font-size: xx-large;
+}
+
+div, #Titre {
+    text-align: center;
+}
+
+#tableau {
+    width: 30%; height: 520px;
+    border: solid none;
+    background-color: gray;
+}
+
+#tableau {
+    float: right;
 }
