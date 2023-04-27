@@ -22,7 +22,7 @@ fieldset{
 }
 
 .flotte {
-    float:left;
+    float: left;
 }
 
 div{
@@ -37,17 +37,46 @@ div, #Titre {
     text-align: center;
 }
 
-#tableau {
-    width: 30%; height: 520px;
-    border: solid none;
+#tableau1 {
+    width: 520px; height: 500px;
+    border: none;
     background-color: gray;
-}
-
-#tableau {
+    display: flex;
     float: right;
 }
 
-@media screen and (max-width: 768px)
-{
-    html
+
+
+#tableau2 {
+    width: 520px; height: 620px;
+    border: none;
+    background-color: gray;
+    float: right;
+}
+
+#tableau3 {
+    width: 520px; height: 2090px;
+    border: none;
+    background-color: gray;
+    float: right;
+}
+
+@media screen and (max-width: 768px) 
+{ 
+    #tableau1 
+    {display: none;}
+
+    #tableau2
+    {display: none;}
+
+    #tableau3
+    {display: none;}
+
+    * 
+    {font-size: small;}
+
+    a{
+        display: flex;
+        flex-direction: column;
+    }
 }
