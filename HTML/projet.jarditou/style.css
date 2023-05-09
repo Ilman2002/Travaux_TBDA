@@ -41,11 +41,8 @@ div, #Titre {
     width: 520px; height: 500px;
     border: none;
     background-color: gray;
-    display: flex;
     float: right;
 }
-
-
 
 #tableau2 {
     width: 520px; height: 620px;
