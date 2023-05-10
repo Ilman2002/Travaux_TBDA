@@ -1,9 +1,7 @@
-{var reponse1 = window.prompt("Saisissez votre nom");
-var reponse2 = window.prompt("Saisissez votre prenom");
-window.alert("Votre nom : " + (reponse1) + "                                                                                                    Votre prenom : " + (reponse2))
-}
+var a = "100" ;
+var b = "100"  ;
+var c = "1,00"
+var d = "vrai"
+document.write("Ceci est une chaîne de caractères : " + a)
 
-function temperatureConverter(valNum) {
-  valNum = parseFloat(valNum);
-  document.getElementById("outputCelsius").innerHTML = (valNum-32) / 1.8;
-} 
+
