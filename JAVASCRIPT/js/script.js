@@ -1,12 +1,12 @@
 function check(){
-var nbr;
-    nbr = Number(document.getElementById("myInput").value);
-    if(nbr%2 == 0)
+    var age;
+    age = Number(document.getElementById("age").value);
+    if(2023-age<=18)
     {
-           alert("Nombre pair");
+       alert("Vous êtes mineur");
     }
     else
     {
-           alert("Nombre impair");
+       alert("Vous êtes majeur");
     }
 }
