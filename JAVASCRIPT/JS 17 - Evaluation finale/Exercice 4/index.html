@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calcul du prix à payer</title>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <h1>Calcul du prix à payer</h1>
+  <label for="prixUnitaire">Prix unitaire :</label>
+  <input type="number" id="prixUnitaire" step="0.01" required><br>
+
+  <label for="quantite">Quantité commandée :</label>
+  <input type="number" id="quantite" required><br>
+
+  <button onclick="calculerPrix()">Calculer</button>
+
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+
+  <h2>Résultats :</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Prix unitaire</th>
+        <th>Quantité commandée</th>
+        <th>Remise</th>
+        <th>Frais de port</th>
+        <th>Prix à payer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="prixUnitaireResultat"></td>
+        <td id="quantiteResultat"></td>
+        <td id="remiseResultat"></td>
+        <td id="portResultat"></td>
+        <td id="prixAPayerResultat"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
